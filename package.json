@@ -1,0 +1,34 @@
+{
+  "name": "postcode-info-test",
+  "version": "1.0.0",
+  "description": "Postcode Info API Test",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "set NODE_ENV=test && mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tutyamxx/postcode-info-test"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/tutyamxx/postcode-info-test/issues"
+  },
+  "homepage": "https://github.com/tutyamxx/postcode-info-test#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "express": "^4.18.1",
+    "express-routemagic": "^2.0.8",
+    "http": "^0.0.1-security",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.0.0"
+  }
+}
